@@ -1,0 +1,165 @@
+body {
+  background-color: #fbfbfb;
+}
+.header {
+  top: 0;
+  background-color: #10a5a9;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.header .container ul {
+  margin: 30px auto;
+}
+.header .container ul li {
+  width: 25%;
+  float: left;
+  list-style-type: none;
+}
+.header .container ul li a {
+  width: 100%;
+  float: left;
+  margin: 0px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fbfbfb;
+}
+.header .container ul li a:hover {
+  font-size: 24px;
+  color: #f0797b;
+}
+.footer {
+  bottom: 0;
+  background-color: #10a5a9;
+  height: 70px;
+  margin-top: 30px;
+}
+.footer .container {
+  text-align: center;
+  padding-top: 15px;
+}
+.footer a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.footer a:hover {
+  font-size: 18px;
+  color: #f0797b;
+}
+.post {
+  margin: 20px 0px;
+}
+.post .post-border {
+  border-left: 1px solid #898a8c;
+  height: 128px ;
+  margin-left: 0px;
+}
+.post .post-border .post-self {
+  margin-left: 50px;
+}
+.post .post-border .post-self h2 {
+  font-family: arial;
+  font-size: 26px;
+  font-weight: normal;
+  color: #10a5a9;
+}
+.post .post-border .post-self a {
+  text-decoration: none;
+  color: #f0797b;
+}
+.date-badge {
+  width: 68px;
+  height: 68px;
+  border-radius: 90px;
+  background-color: #76c1b1;
+  margin: 30px auto;
+  position: relative;
+  box-shadow: -1px 5px 15px rgba(51, 50, 50, 0.91);
+}
+.date-badge .date-badge-d {
+  position: absolute;
+  font-family: american typewriter;
+  font-weight: bold;
+  font-size: 27px;
+  color: #fbfbfb;
+  top: 14px;
+  left: 16px;
+}
+.date-badge .date-badge-m {
+  position: absolute;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 17px;
+  color: #fbfbfb;
+  top: 38px;
+  left: 19px;
+}
+.gafa {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../images/gafa.png");
+}
+.gafa a {
+  position: absolute;
+  border-radius: 90px;
+}
+.gafa .twitter {
+  top: 185px;
+  left: 18px;
+  width: 52px;
+  height: 52px;
+}
+.gafa .facebook {
+  top: 294px;
+  left: 409px;
+  width: 65px;
+  height: 65px;
+}
+.gafa .foursquare {
+  top: 343px;
+  left: 64px;
+  width: 42px;
+  height: 42px;
+}
+.gafa .instagram {
+  top: 28px;
+  left: 278px;
+  width: 59px;
+  height: 59px;
+}
+.gafa .linkedin {
+  top: 131px;
+  left: 393px;
+  width: 40px;
+  height: 40px;
+}
+.gafa .pinterest {
+  top: 72px;
+  left: 115px;
+  width: 44px;
+  height: 44px;
+}
+.gafa .googleplus {
+  top: 415px;
+  left: 168px;
+  width: 38px;
+  height: 38px;
+}
+.gafa .youtube {
+  top: 407px;
+  left: 309px;
+  width: 53px;
+  height: 53px;
+}
+.gallery {
+  list-style: none;
+}
+.gallery li {
+  float: left;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 5px;
+}

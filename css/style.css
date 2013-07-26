@@ -99,59 +99,75 @@ body {
   width: 500px;
   height: 500px;
   margin: 0 auto;
-  background-image: url("../images/gafa.png");
+  background-image: url("../images/gafa-iconsuz.png");
 }
 .gafa a {
   position: absolute;
   border-radius: 90px;
 }
 .gafa .twitter {
-  top: 185px;
-  left: 18px;
-  width: 52px;
-  height: 52px;
-}
-.gafa .facebook {
-  top: 294px;
-  left: 409px;
+  top: 183px;
+  left: 16px;
   width: 65px;
   height: 65px;
+  background-image: url("../images/bt_icons/twitter.png");
+  background-repeat: no-repeat;
+}
+.gafa .facebook {
+  top: 291px;
+  left: 406px;
+  width: 80px;
+  height: 80px;
+  background-image: url("../images/bt_icons/facebook.png");
+  background-repeat: no-repeat;
 }
 .gafa .foursquare {
-  top: 343px;
-  left: 64px;
-  width: 42px;
-  height: 42px;
+  top: 346px;
+  left: 65px;
+  width: 49px;
+  height: 49px;
+  background-image: url("../images/bt_icons/foursquare.png");
+  background-repeat: no-repeat;
 }
 .gafa .instagram {
-  top: 28px;
-  left: 278px;
-  width: 59px;
-  height: 59px;
+  top: 31px;
+  left: 282px;
+  width: 60px;
+  height: 60px;
+  background-image: url("../images/bt_icons/instagram.png");
+  background-repeat: no-repeat;
 }
 .gafa .linkedin {
   top: 131px;
-  left: 393px;
-  width: 40px;
-  height: 40px;
+  left: 394px;
+  width: 52px;
+  height: 52px;
+  background-image: url("../images/bt_icons/linkedin.png");
+  background-repeat: no-repeat;
 }
 .gafa .pinterest {
-  top: 72px;
-  left: 115px;
-  width: 44px;
-  height: 44px;
+  top: 80px;
+  left: 116px;
+  width: 46px;
+  height: 46px;
+  background-image: url("../images/bt_icons/pinterest.png");
+  background-repeat: no-repeat;
 }
 .gafa .googleplus {
-  top: 415px;
-  left: 168px;
-  width: 38px;
-  height: 38px;
+  top: 419px;
+  left: 177px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/bt_icons/googleplus.png");
+  background-repeat: no-repeat;
 }
 .gafa .youtube {
-  top: 407px;
-  left: 309px;
-  width: 53px;
-  height: 53px;
+  top: 406px;
+  left: 306px;
+  width: 63px;
+  height: 63px;
+  background-image: url("../images/bt_icons/youtube.png");
+  background-repeat: no-repeat;
 }
 .gallery {
   list-style: none;

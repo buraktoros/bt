@@ -1,4 +1,3 @@
-
 <div class="post row">
     <div class="span2">
         <div class="date-badge">
@@ -14,7 +13,7 @@
                 echo $string
                 ?>
             </p>
-            <a href="#" class="more">Daha fazla...</a>
+            <a href="<?php echo Yii::app()->baseUrl.'/post/more/'.$data->id ?>" class="more">Daha fazla...</a>
         </div>
     </div>
 </div>
